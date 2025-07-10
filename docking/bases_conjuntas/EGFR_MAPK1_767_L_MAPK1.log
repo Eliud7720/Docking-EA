@@ -1,0 +1,28 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3 master:97fa6bc+   Built Oct  3 2024.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+Commandline: gnina --receptor Proteinas_preparadas/MAPK1.pdbqt --ligand Bases_conjuntas/Targets/EGFR_MAPK1/EGFR_MAPK1_767.pdbqt --autobox_ligand Compuestos_preparados/MAPK1.pdbqt --autobox_add 18 --exhaustiveness 16 --out docking/bases_conjuntas/EGFR_MAPK1_767_L_MAPK1.pdbqt --log docking/bases_conjuntas/EGFR_MAPK1_767_L_MAPK1.log
+Using random seed: 192155394
+
+mode |  affinity  |  intramol  |    CNN     |   CNN
+     | (kcal/mol) | (kcal/mol) | pose score | affinity
+-----+------------+------------+------------+----------
+    1       -7.41       -1.05       0.5382      6.976
+    2       -7.92       -0.68       0.4932      6.805
+    3       -7.49       -1.13       0.4229      6.568
+    4       -9.18        0.01       0.4123      6.846
+    5       -7.72       -1.63       0.4074      6.741
+    6       -8.19       -0.27       0.3869      7.307
+    7       -9.64       -1.07       0.3371      7.269
+    8       -7.75       -0.19       0.3076      6.264
+    9       -8.20        2.33       0.3042      7.129
