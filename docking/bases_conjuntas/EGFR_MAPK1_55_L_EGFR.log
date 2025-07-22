@@ -11,18 +11,18 @@ gnina v1.3 master:97fa6bc+   Built Oct  3 2024.
 gnina is based on smina and AutoDock Vina.
 Please cite appropriately.
 
-Commandline: gnina --receptor Proteinas_preparadas/EGFR.pdbqt --ligand Bases_conjuntas/Targets/EGFR_MAPK1/EGFR_MAPK1_55.pdbqt --autobox_ligand Compuestos_preparados/EGFR.pdbqt --autobox_add 18 --exhaustiveness 16 --out docking/bases_conjuntas/EGFR_MAPK1_55_L_EGFR.pdbqt --log docking/bases_conjuntas/EGFR_MAPK1_55_L_EGFR.log
-Using random seed: -2144430080
+Commandline: gnina --receptor Proteinas_preparadas/EGFR.pdbqt --ligand Bases_conjuntas/Targets/EGFR_MAPK1/EGFR_MAPK1_55.pdbqt --autobox_ligand Compuestos_preparados/EGFR.pdbqt --autobox_add 18 --exhaustiveness 16 --cnn_scoring none --out docking/bases_conjuntas/EGFR_MAPK1_55_L_EGFR.pdbqt --log docking/bases_conjuntas/EGFR_MAPK1_55_L_EGFR.log
+Using random seed: 128870443
 
 mode |  affinity  |  intramol  |    CNN     |   CNN
      | (kcal/mol) | (kcal/mol) | pose score | affinity
 -----+------------+------------+------------+----------
-    1       -6.64       -0.48       0.6752      6.547
-    2       -7.12       -0.10       0.4604      6.012
-    3       -7.13        0.09       0.4298      5.601
-    4       -7.63       -0.76       0.4248      6.614
-    5       -8.25       -1.40       0.3861      7.205
-    6       -7.11       -0.32       0.3793      5.846
-    7       -6.66       -0.78       0.3617      5.783
-    8       -7.15       -0.40       0.3456      6.354
-    9       -6.84       -0.76       0.2841      6.564
+    1       -8.91       -1.00      -1.0000      0.000
+    2       -8.80       -1.96      -1.0000      0.000
+    3       -8.76       -0.65      -1.0000      0.000
+    4       -8.57       -1.05      -1.0000      0.000
+    5       -8.53       -1.31      -1.0000      0.000
+    6       -8.51       -1.35      -1.0000      0.000
+    7       -8.48       -0.97      -1.0000      0.000
+    8       -8.45       -1.38      -1.0000      0.000
+    9       -8.39       -0.86      -1.0000      0.000

@@ -1,0 +1,28 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3 master:97fa6bc+   Built Oct  3 2024.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+Commandline: gnina --receptor Proteinas_preparadas/STAT3.pdbqt --ligand Inhibidores/Targets/EGFR_STAT3/SRC_P_EGFR_STAT3_157.pdbqt --autobox_ligand Compuestos_preparados/STAT3.pdbqt --autobox_add 18 --exhaustiveness 16 --cnn_scoring none --out docking/inhibidores/SRC_P_EGFR_STAT3_157_L_STAT3.pdbqt --log docking/inhibidores/SRC_P_EGFR_STAT3_157_L_STAT3.log
+Using random seed: 318692322
+
+mode |  affinity  |  intramol  |    CNN     |   CNN
+     | (kcal/mol) | (kcal/mol) | pose score | affinity
+-----+------------+------------+------------+----------
+    1       -8.41        0.19      -1.0000      0.000
+    2       -8.22       -0.59      -1.0000      0.000
+    3       -8.13       -0.88      -1.0000      0.000
+    4       -8.10        0.14      -1.0000      0.000
+    5       -8.09       -0.63      -1.0000      0.000
+    6       -8.04       -0.90      -1.0000      0.000
+    7       -7.92       -0.87      -1.0000      0.000
+    8       -7.81       -0.85      -1.0000      0.000
+    9       -7.81       -0.91      -1.0000      0.000

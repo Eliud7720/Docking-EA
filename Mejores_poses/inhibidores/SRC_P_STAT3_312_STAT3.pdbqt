@@ -1,0 +1,35 @@
+MODEL 1
+REMARK minimizedAffinity -5.76559353
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C1_2 
+REMARK    2  A    between atoms: C3_4  and  N1_5 
+REMARK    3  A    between atoms: N1_5  and  C4_6 
+ROOT
+HETATM    1  C1  UNL     1      14.871  34.617  18.110  1.00  0.00     0.144 A 
+HETATM    2  C2  UNL     1      13.548  34.324  17.880  1.00  0.00     0.104 A 
+HETATM    3  C3  UNL     1      12.727  35.392  17.559  1.00  0.00     0.110 A 
+HETATM    4  N2  UNL     1      13.214  36.640  17.469  1.00  0.00    -0.338 N 
+ATOM      5  H2  UNL     1      12.616  37.427  17.220  1.00  0.00     0.168 HD
+HETATM    6  C10 UNL     1      14.520  36.806  17.722  1.00  0.00     0.183 A 
+HETATM    7  N3  UNL     1      15.388  35.845  18.046  1.00  0.00    -0.333 N 
+ATOM      8  H3  UNL     1      16.372  36.036  18.231  1.00  0.00     0.168 HD
+ENDROOT
+BRANCH   3   9
+HETATM    9  N1  UNL     1      11.360  35.113  17.313  1.00  0.00    -0.342 N 
+HETATM   10  H3  UNL     1      11.265  34.177  16.935  1.00  0.00     0.167 HD
+BRANCH   9  11
+HETATM   11  C4  UNL     1      10.231  35.468  18.086  1.00  0.00     0.033 A 
+HETATM   12  C5  UNL     1       9.106  36.104  17.546  1.00  0.00     0.029 A 
+HETATM   13  C6  UNL     1       7.983  36.376  18.334  1.00  0.00     0.002 A 
+HETATM   14  C7  UNL     1       7.957  35.993  19.671  1.00  0.00     0.000 A 
+HETATM   15  C8  UNL     1       9.050  35.328  20.218  1.00  0.00     0.002 A 
+HETATM   16  C9  UNL     1      10.171  35.058  19.427  1.00  0.00     0.029 A 
+ENDBRANCH   9  11
+ENDBRANCH   3   9
+BRANCH   1  17
+HETATM   17  O1  UNL     1      15.767  33.639  18.429  1.00  0.00    -0.346 OA
+HETATM   18  H1  UNL     1      15.319  32.782  18.385  1.00  0.00     0.219 HD
+ENDBRANCH   1  17
+TORSDOF 3
+ENDMDL

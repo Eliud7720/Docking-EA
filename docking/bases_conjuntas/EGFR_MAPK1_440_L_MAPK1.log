@@ -11,18 +11,18 @@ gnina v1.3 master:97fa6bc+   Built Oct  3 2024.
 gnina is based on smina and AutoDock Vina.
 Please cite appropriately.
 
-Commandline: gnina --receptor Proteinas_preparadas/MAPK1.pdbqt --ligand Bases_conjuntas/Targets/EGFR_MAPK1/EGFR_MAPK1_440.pdbqt --autobox_ligand Compuestos_preparados/MAPK1.pdbqt --autobox_add 18 --exhaustiveness 16 --out docking/bases_conjuntas/EGFR_MAPK1_440_L_MAPK1.pdbqt --log docking/bases_conjuntas/EGFR_MAPK1_440_L_MAPK1.log
-Using random seed: -2012590378
+Commandline: gnina --receptor Proteinas_preparadas/MAPK1.pdbqt --ligand Bases_conjuntas/Targets/EGFR_MAPK1/EGFR_MAPK1_440.pdbqt --autobox_ligand Compuestos_preparados/MAPK1.pdbqt --autobox_add 18 --exhaustiveness 16 --cnn_scoring none --out docking/bases_conjuntas/EGFR_MAPK1_440_L_MAPK1.pdbqt --log docking/bases_conjuntas/EGFR_MAPK1_440_L_MAPK1.log
+Using random seed: -1809734646
 
 mode |  affinity  |  intramol  |    CNN     |   CNN
      | (kcal/mol) | (kcal/mol) | pose score | affinity
 -----+------------+------------+------------+----------
-    1      -12.44        5.73       0.5065      7.260
-    2      -10.27       -0.18       0.4298      6.912
-    3       -6.86        0.06       0.3615      5.974
-    4       -7.41       -0.03       0.3228      6.403
-    5      -11.45        1.12       0.2992      7.048
-    6       -8.54        0.16       0.2991      6.245
-    7       -6.64       -0.54       0.2790      6.150
-    8       -7.34       -0.16       0.2636      5.425
-    9       -7.04       -0.36       0.2477      6.081
+    1      -10.55       -0.38      -1.0000      0.000
+    2      -10.00        0.35      -1.0000      0.000
+    3       -9.94       -0.53      -1.0000      0.000
+    4       -9.78        1.29      -1.0000      0.000
+    5       -9.64        1.38      -1.0000      0.000
+    6       -9.45        1.89      -1.0000      0.000
+    7       -9.42        0.48      -1.0000      0.000
+    8       -9.35        1.23      -1.0000      0.000
+    9       -9.29        0.18      -1.0000      0.000
